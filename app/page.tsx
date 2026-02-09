@@ -28,7 +28,6 @@ export default function Home() {
     Data: [
       "MongoDB",
       "MySQL",
-      "Database Management",
       "Google Analytics",
       "Google Tag Manager",
       "SEO",
@@ -99,7 +98,7 @@ export default function Home() {
             <a href="#" className="text-2xl font-bold text-gray-900">
               Lionel Sellam
             </a>
-            <div className="flex gap-16 mt-3">
+            <div className="flex gap-6 mt-3">
               <a
                 href="#about"
                 className="text-xl text-gray-600 hover:text-gray-900 transition"
@@ -130,7 +129,7 @@ export default function Home() {
                 download
                 className="ml-2 flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm rounded hover:bg-blue-700 transition shadow-sm"
               >
-                📄 Download CV
+                📄 CV
               </a>
             </div>
           </div>
