@@ -123,7 +123,7 @@ export default function Home() {
                 download
                 className="ml-2 flex items-center gap-2 px-4 py-2 bg-blue-600 text-white text-sm rounded hover:bg-blue-700 transition shadow-sm"
               >
-                📄 CV
+                Resume
               </a>
             </div>
           </div>
