@@ -25,13 +25,7 @@ export default function Home() {
       "Framer Motion",
     ],
 
-    Data: [
-      "MongoDB",
-      "MySQL",
-      "Google Analytics",
-      "Google Tag Manager",
-      "SEO",
-    ],
+    Data: ["MongoDB", "MySQL", "Google Analytics", "Google Tag Manager", "SEO"],
 
     Tools: [
       "Git",
@@ -93,33 +87,33 @@ export default function Home() {
     <main className="min-h-screen">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-6 py-4">
+        <div className="max-w-6xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <a href="#" className="text-2xl font-bold text-gray-900">
-              Lionel Sellam
+            <a href="#" className="text-m font-bold text-gray-900">
+              L.S
             </a>
-            <div className="flex gap-6 mt-3">
+            <div className="flex items-center gap-4">
               <a
                 href="#about"
-                className="text-xl text-gray-600 hover:text-gray-900 transition"
+                className="text-m text-gray-600 hover:text-gray-900 transition"
               >
                 About
               </a>
               <a
                 href="#skills"
-                className="text-xl text-gray-600 hover:text-gray-900 transition"
+                className="text-m text-gray-600 hover:text-gray-900 transition"
               >
                 Skills
               </a>
               <a
                 href="#projects"
-                className="text-xl text-gray-600 hover:text-gray-900 transition"
+                className="text-m text-gray-600 hover:text-gray-900 transition"
               >
                 Projects
               </a>
               <a
                 href="#contact"
-                className="text-xl text-gray-600 hover:text-gray-900 transition"
+                className="text-m text-gray-600 hover:text-gray-900 transition"
               >
                 Contact
               </a>
